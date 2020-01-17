@@ -258,7 +258,7 @@ while (1):
     paddle1.draw()
     
 
-    if counter == 1:
+    if counter == 5 :
         ball.x = 0
         ball.y = 0
         paddle.y = 0
@@ -266,7 +266,7 @@ while (1):
         canvas.create_text(250,200, text = "Player 1 Wins !", font = 32, fill = "red")
         canvas.create_text(250,215, text = "Score :" + str(counter) + " - " + str(counter1), font = 32, fill = "white")
 
-    if counter1 == 1:
+    if counter1 == 5 :
         ball.x = 0
         ball.y = 0
         paddle.y = 0
@@ -280,7 +280,7 @@ while (1):
     time.sleep(0.01)
 
 
-    if counter == 1 or counter1 == 1 :
+    if counter == 5 or counter1 == 5 :
         # the halts to show the result for 10 seconds.
         # keeping a very high sleeping time here is here is okay but :
             # 1 : after that sleeping time is complete, the game will continue (beyond end point).
