@@ -49,7 +49,7 @@ canvas.create_line(250,0,250,400,fill = "white")
 
 
 
-# required   C L A S S E S :
+# required   C L A S S E S : 
 # the ball :
 class Ball:
     def __init__(self,canvas,color,paddle,paddle1):
